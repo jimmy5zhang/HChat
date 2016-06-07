@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F513871D068A2200012428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F513861D068A2200012428 /* main.m */; };
+		81F5138A1D068A2200012428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F513891D068A2200012428 /* AppDelegate.m */; };
+		81F5138D1D068A2200012428 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F5138C1D068A2200012428 /* FirstViewController.m */; };
+		81F513901D068A2200012428 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F5138F1D068A2200012428 /* SecondViewController.m */; };
+		81F513931D068A2200012428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F513911D068A2200012428 /* Main.storyboard */; };
+		81F513951D068A2200012428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F513941D068A2200012428 /* Assets.xcassets */; };
+		81F513981D068A2200012428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F513961D068A2200012428 /* LaunchScreen.storyboard */; };
+		81F513A31D068A2200012428 /* HChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F513A21D068A2200012428 /* HChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81F5139F1D068A2200012428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F5137A1D068A2200012428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F513811D068A2200012428;
+			remoteInfo = HChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81F513821D068A2200012428 /* HChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F513861D068A2200012428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81F513881D068A2200012428 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81F513891D068A2200012428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81F5138B1D068A2200012428 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		81F5138C1D068A2200012428 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		81F5138E1D068A2200012428 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		81F5138F1D068A2200012428 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		81F513921D068A2200012428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81F513941D068A2200012428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81F513971D068A2200012428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81F513991D068A2200012428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F5139E1D068A2200012428 /* HChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F513A21D068A2200012428 /* HChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HChatTests.m; sourceTree = "<group>"; };
+		81F513A41D068A2200012428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F5137F1D068A2200012428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F5139B1D068A2200012428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81F513791D068A2200012428 = {
+			isa = PBXGroup;
+			children = (
+				81F513841D068A2200012428 /* HChat */,
+				81F513A11D068A2200012428 /* HChatTests */,
+				81F513831D068A2200012428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81F513831D068A2200012428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F513821D068A2200012428 /* HChat.app */,
+				81F5139E1D068A2200012428 /* HChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F513841D068A2200012428 /* HChat */ = {
+			isa = PBXGroup;
+			children = (
+				81F513881D068A2200012428 /* AppDelegate.h */,
+				81F513891D068A2200012428 /* AppDelegate.m */,
+				81F5138B1D068A2200012428 /* FirstViewController.h */,
+				81F5138C1D068A2200012428 /* FirstViewController.m */,
+				81F5138E1D068A2200012428 /* SecondViewController.h */,
+				81F5138F1D068A2200012428 /* SecondViewController.m */,
+				81F513911D068A2200012428 /* Main.storyboard */,
+				81F513941D068A2200012428 /* Assets.xcassets */,
+				81F513961D068A2200012428 /* LaunchScreen.storyboard */,
+				81F513991D068A2200012428 /* Info.plist */,
+				81F513851D068A2200012428 /* Supporting Files */,
+			);
+			path = HChat;
+			sourceTree = "<group>";
+		};
+		81F513851D068A2200012428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F513861D068A2200012428 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81F513A11D068A2200012428 /* HChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				81F513A21D068A2200012428 /* HChatTests.m */,
+				81F513A41D068A2200012428 /* Info.plist */,
+			);
+			path = HChatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F513811D068A2200012428 /* HChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F513A71D068A2200012428 /* Build configuration list for PBXNativeTarget "HChat" */;
+			buildPhases = (
+				81F5137E1D068A2200012428 /* Sources */,
+				81F5137F1D068A2200012428 /* Frameworks */,
+				81F513801D068A2200012428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HChat;
+			productName = HChat;
+			productReference = 81F513821D068A2200012428 /* HChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81F5139D1D068A2200012428 /* HChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F513AA1D068A2200012428 /* Build configuration list for PBXNativeTarget "HChatTests" */;
+			buildPhases = (
+				81F5139A1D068A2200012428 /* Sources */,
+				81F5139B1D068A2200012428 /* Frameworks */,
+				81F5139C1D068A2200012428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81F513A01D068A2200012428 /* PBXTargetDependency */,
+			);
+			name = HChatTests;
+			productName = HChatTests;
+			productReference = 81F5139E1D068A2200012428 /* HChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F5137A1D068A2200012428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jimmyzhang;
+				TargetAttributes = {
+					81F513811D068A2200012428 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					81F5139D1D068A2200012428 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 81F513811D068A2200012428;
+					};
+				};
+			};
+			buildConfigurationList = 81F5137D1D068A2200012428 /* Build configuration list for PBXProject "HChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81F513791D068A2200012428;
+			productRefGroup = 81F513831D068A2200012428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F513811D068A2200012428 /* HChat */,
+				81F5139D1D068A2200012428 /* HChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81F513801D068A2200012428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F513981D068A2200012428 /* LaunchScreen.storyboard in Resources */,
+				81F513951D068A2200012428 /* Assets.xcassets in Resources */,
+				81F513931D068A2200012428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F5139C1D068A2200012428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F5137E1D068A2200012428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F513901D068A2200012428 /* SecondViewController.m in Sources */,
+				81F5138A1D068A2200012428 /* AppDelegate.m in Sources */,
+				81F5138D1D068A2200012428 /* FirstViewController.m in Sources */,
+				81F513871D068A2200012428 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F5139A1D068A2200012428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F513A31D068A2200012428 /* HChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81F513A01D068A2200012428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F513811D068A2200012428 /* HChat */;
+			targetProxy = 81F5139F1D068A2200012428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81F513911D068A2200012428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F513921D068A2200012428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81F513961D068A2200012428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F513971D068A2200012428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81F513A51D068A2200012428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81F513A61D068A2200012428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F513A81D068A2200012428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hteng.HChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81F513A91D068A2200012428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hteng.HChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81F513AB1D068A2200012428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hteng.HChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HChat.app/HChat";
+			};
+			name = Debug;
+		};
+		81F513AC1D068A2200012428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hteng.HChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HChat.app/HChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F5137D1D068A2200012428 /* Build configuration list for PBXProject "HChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F513A51D068A2200012428 /* Debug */,
+				81F513A61D068A2200012428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F513A71D068A2200012428 /* Build configuration list for PBXNativeTarget "HChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F513A81D068A2200012428 /* Debug */,
+				81F513A91D068A2200012428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81F513AA1D068A2200012428 /* Build configuration list for PBXNativeTarget "HChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F513AB1D068A2200012428 /* Debug */,
+				81F513AC1D068A2200012428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F5137A1D068A2200012428 /* Project object */;
+}
